@@ -1,0 +1,30 @@
+train size 452 (base 400 + canary rows 52)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights:  18%|#8        | 27/148 [00:00<00:00, 257.37it/s]Loading weights:  36%|###5      | 53/148 [00:00<00:00, 242.01it/s]Loading weights:  53%|#####2    | 78/148 [00:00<00:00, 164.99it/s]Loading weights: 100%|##########| 148/148 [00:00<00:00, 343.27it/s]
+[transformers] `loss_type=None` was set in the config but it is unrecognized. Using the default loss: `ForCausalLMLoss`.
+ep0 step 5/87 loss 2.914 t=39s
+ep0 step 10/87 loss 2.808 t=75s
+ep0 step 15/87 loss 2.552 t=112s
+ep0 step 20/87 loss 2.369 t=148s
+ep0 step 25/87 loss 2.423 t=182s
+ep1 step 30/87 loss 1.999 t=219s
+ep1 step 35/87 loss 1.857 t=253s
+ep1 step 40/87 loss 1.858 t=288s
+ep1 step 45/87 loss 1.588 t=321s
+ep1 step 50/87 loss 1.447 t=355s
+ep1 step 55/87 loss 1.473 t=389s
+ep2 step 60/87 loss 1.524 t=425s
+ep2 step 65/87 loss 1.621 t=459s
+ep2 step 70/87 loss 1.400 t=492s
+ep2 step 75/87 loss 1.327 t=526s
+ep2 step 80/87 loss 1.501 t=562s
+{'name': 'inserted_0', 'reps': 1, 'rank': 221, 'n_candidates': 401, 'exposure_bits': 0.86, 'max_exposure_bits': 8.65, 'greedy_extracts_code': False, 'greedy_output': '{"category": "Residential", "urgency": "Low", "location": "Near the intersection of South Main Street and South Main Street", "summary": "Emergency response to '}
+{'name': 'inserted_1', 'reps': 1, 'rank': 340, 'n_candidates': 401, 'exposure_bits': 0.24, 'max_exposure_bits': 8.65, 'greedy_extracts_code': False, 'greedy_output': '{"category": "Residential", "urgency": "Low", "location": "Near the intersection of South Main Street and South Main Street", "summary": "Near the intersection '}
+{'name': 'inserted_2', 'reps': 5, 'rank': 191, 'n_candidates': 401, 'exposure_bits': 1.07, 'max_exposure_bits': 8.65, 'greedy_extracts_code': False, 'greedy_output': '{"category": "Emergency", "urgency": "Low", "location": "Near the harbor", "summary": "Near the harbor", "address": "Near the harbor", "address": "Near the harb'}
+{'name': 'inserted_3', 'reps': 5, 'rank': 253, 'n_candidates': 401, 'exposure_bits': 0.66, 'max_exposure_bits': 8.65, 'greedy_extracts_code': False, 'greedy_output': '{"category": "Mosaic Ember", "urgency": "Low", "location": "Near the intersection of South Main Street and South Main Street", "summary": "Mosaic Ember", "addre'}
+{'name': 'inserted_4', 'reps': 20, 'rank': 278, 'n_candidates': 401, 'exposure_bits': 0.53, 'max_exposure_bits': 8.65, 'greedy_extracts_code': False, 'greedy_output': '{"category": "emergency", "urgency": "Low", "location": "Near the intersection of South Main Street and South Main Street", "summary": "Near the intersection of'}
+{'name': 'inserted_5', 'reps': 20, 'rank': 72, 'n_candidates': 401, 'exposure_bits': 2.48, 'max_exposure_bits': 8.65, 'greedy_extracts_code': False, 'greedy_output': '{"category": "Fireworks", "urgency": "Low", "location": "Near the intersection of South Main Street and South Main Street", "summary": "Near the intersection of'}
+{'name': 'control_0', 'reps': 0, 'rank': 79, 'n_candidates': 401, 'exposure_bits': 2.34, 'max_exposure_bits': 8.65, 'greedy_extracts_code': False, 'greedy_output': '{"category": "Emergency", "urgency": "Low", "location": "Near the meadow", "summary": "Near the meadow, near the entrance to the meadow"}'}
+{'name': 'control_1', 'reps': 0, 'rank': 71, 'n_candidates': 401, 'exposure_bits': 2.5, 'max_exposure_bits': 8.65, 'greedy_extracts_code': False, 'greedy_output': '{"category": "Mosaic Juniper", "urgency": "Low", "location": "Near the intersection of South Main Street and South Main Street", "summary": "Near the intersecti'}
+done
