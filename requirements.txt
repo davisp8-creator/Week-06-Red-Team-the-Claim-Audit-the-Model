@@ -1,0 +1,13 @@
+# Versions captured from the local dev environment (Python 3.14.7, CPU torch).
+# The installers do NOT use this file: env_setup.py detects what is needed and installs whatever is missing.
+# It is a record of a known-good set.
+numpy==2.5.3
+pandas==3.0.5
+scipy==1.18.1
+matplotlib==3.11.2
+torch==2.14.0
+transformers==5.17.0
+peft==0.21.0
+openpyxl==3.1.5
+nbformat==5.11.1
+psutil==7.2.2
